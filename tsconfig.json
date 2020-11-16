@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": false,
+    "typeRoots": ["./node_modules/@types", "./types/"],
+    "types": ["node", "@wdio/sync", "@wdio/mocha-framework", "@applitools/eyes-webdriverio5-service"]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "applitools_holiday_shopping_hackathon",
+  "version": "1.0.0",
+  "description": "Submission for the Applitools Holiday Shopping Hackathon",
+  "scripts": {
+    "lint": "eslint \"./**/*.{js,ts,json}\"",
+    "prettier": "prettier -c \"./**/*.{js,ts,json}\"",
+    "test:part1": "cross-env APP_VERSION=MasterV1 wdio",
+    "test:part2": "cross-env APP_VERSION=Dev wdio",
+    "test:part3": "cross-env APP_VERSION=MasterV2 wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablok/ApplitoolsHolidayShopping.git"
+  },
+  "author": "Arjan Blok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ablok/ApplitoolsHolidayShopping/issues"
+  },
+  "homepage": "https://github.com/ablok/ApplitoolsHolidayShopping#readme",
+  "dependencies": {
+    "@applitools/eyes-webdriverio5-service": "^1.8.2",
+    "@types/mocha": "^8.0.4",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "@wdio/cli": "^5.23.0",
+    "@wdio/local-runner": "^5.23.0",
+    "@wdio/mocha-framework": "^5.23.0",
+    "@wdio/spec-reporter": "^5.23.0",
+    "@wdio/sync": "^5.23.0",
+    "chromedriver": "^87.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2",
+    "uuid": "^8.3.1",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.23.0"
+  }
+}
