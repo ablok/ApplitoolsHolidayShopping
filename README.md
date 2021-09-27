@@ -1,3 +1,5 @@
+UPDATE: [22nd place](https://applitools.com/blog/holiday-shopping-hackathon-winners-announced/)
+
 # Applitools Holiday Shopping Hackathon
 
 This is [my](#Author) submission for the [Applitools Holiday Shopping Hackathon](https://applitools.com/hackathon-v20-3-instructions/).
